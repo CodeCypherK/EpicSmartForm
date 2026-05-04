@@ -112,7 +112,7 @@ runTest("calculates 16-unit bucket recommendation", function () {
 runTest("calculates 32-unit bucket recommendation", function () {
   const result = calculator.calculate({
     IN_BREAKFAST: 4,
-    IN_LUNCH: 6,
+    IN_LUNCH: 4,
     IN_DINNER: 8,
     IN_SNACKS: 0
   });
